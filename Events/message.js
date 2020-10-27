@@ -11,5 +11,5 @@ module.exports = (Client, Message) => {
     }
 
     try { Command.Execute(Client, Ctx); }
-    catch (Error) { throw new Error(error); }
+    catch (error) { throw new Error(error); }
 };
