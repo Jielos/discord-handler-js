@@ -7,7 +7,7 @@ module.exports = (Client, Message) => {
 
     if(!Command) return;
     if(!Client.Functions.checkPerms(Command, Message.member)) {
-        Client.Functions.noPermission(Message.user, Message.channel);
+        return Client.Functions.noPermission(Message.user, Message.channel);
     }
 
     try { Command.Execute(Client, Ctx); }
