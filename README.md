@@ -1,28 +1,28 @@
 # discord-handler-js
-Handler Open-Source for Discord in JavaScript. This is the first version of discord-handler-js with database mysql system.
+Handler Open-Source for Discord in JavaScript.
 There are all features in this version:
 
  - Optimization
  - Structured
- - Custom Config
- - Database MySql
+ - Custom Configuration
 
 ## » Requirements :
 
- - (Git)
- - NodeJs
- - Module ` discord.js `
- - Module ` mysql `
+ - (git)
+ - NodeJS
+ - Modules necessary:
+    - [**discord.js**](https://www.npmjs.com/package/discord.js)
+    - [**mysql2**](https://www.npmjs.com/package/mysql2)
  
 ## » Downloading : 
 
-Clone the repo using command ` git clone https://github.com/Jielos/discord-handler-js/tree/mysql ` or download the .zip with https://github.com/Jielos/discord-handler-js/archive/mysql.zip .
+Clone the repo using command ` git clone https://github.com/Jielos/discord-handler-js ` or download the .zip with https://github.com/Jielos/discord-handler-js/archive/master.zip.
 
 ## » Setup :
 
-Put your secret token bot in ` Configs/config.json ` and settings the file ` Configs/database.json `.
-Install the module ` discord.js ` and ` mysql ` with ` npm install discord.js ` & ` npm install mysql ` in terminal.
+Put your secret token of your application in ` /src/resources/config.json ` & configure the database in ` /src/resources/database.json `, then install modules necessary with ` npm install ` in the terminal.
 
 ## » Start :
 
-To start the handler, run this command in terminal ` node Main.js ` .
+To start the app, run this command in terminal ` node app.js `.
+And have fun!

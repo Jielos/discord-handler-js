@@ -1,0 +1,17 @@
+{
+    "token": "YOUR APPLICATION TOKEN HERE",
+    "prefix": "!",
+
+    "embed_config": {
+        "url": "https://jielos.fr/",
+        "color": "RANDOM",
+        "footer": "© Jielos.fr - 2021"
+    },
+
+    "messageFormat": {
+        "emojis": {
+            "success": ":mortar_board:",
+            "error": ":electric_plug:"
+        }
+    }
+}
